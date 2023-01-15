@@ -1,0 +1,54 @@
+What is Internet?
+
+
+Internet is source by which  we can search anything in web browser. Their are different generation of internet are 2G,3G,4G,5G. It is worldwide web system. 
+It is an interconnection between many computer.
+
+
+What is Static  Website?
+Those website content does not change frequently and content does not fetch from server.
+For Example:: Resume building website, online portfolio.
+
+DISADVANTAGES
+------------------------------
+Limited functionality
+Lack of flexibility
+No user interaction
+Not good for complex implementation
+
+ADVANTAGES
+---------------------------
+Simplicity
+Speed
+Security
+Cost Effectiveness
+Scalability
+
+
+What is Dynamic Website?
+Those website content change frequently  with time and content are fetch from server.
+For Example:: Travel Booking Website
+
+
+ADVANTAGES
+------------------------------
+Advance Functionality
+Flexibility
+Better user interaction
+Scalability
+
+DISADVANTAGES
+---------------------------
+Complex Implementation
+High cost 
+More overhead for simple website
+
+What is web browser?
+Web Browser is an application to accessing website. Example : Google Chrome, Microsoft Edge etc
+Many websites uses its own web browser to increase the user interaction and does not necessary to going anyother platform like linkedlin.
+
+
+What is web engine?
+Web Engine is used to render the Html/Css/Js content of webpage into screen from where user see the content.
+Google used blink web engine. It increase a user interaction.
+
