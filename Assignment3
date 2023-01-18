@@ -1,0 +1,36 @@
+What is HTML?
+Hypertext Markup Language is used to create a skeleton of the webpage.It is not a programming language. It does not have decision making capability.
+It define the arrangement of the  elements in the webpage.Along with html, we can create a webpage but it creates a only static webpages and websites.
+It creates a structure of the webpage.We can used to add meta tag to add meta information and keywords.
+It helps in SEO.
+File extension of the html is .html
+
+What is CSS?
+
+Cascading style sheet is used for design then webpages. It is used with html to create a webpage more beautiful and user interactive.
+It gives design to the elements such as button color,border, text color font size , font color, text alignment etc.
+Their are 3 types of CSS
+  Internally
+  Externally
+  Inline
+Above types of CSS, define how to attach CSS to the html code.
+With the help of Style tag , we apply CSS code to the html file.
+
+
+Why JS came ?
+
+Js is a programming language. It have a decision making capability.It enhances the capability and functionality of the webpage. It creates a dynamic webpage.
+It contain lots of features to create a fully functional webpages, website and application.
+With the help of it, we can implemented complex features into webpages.
+We does not need to refresh a webpage to get a dynamic content.
+
+
+History of JS
+
+Earlier, moka name was given by Brendan Eich. Mostly, he used a coffee name to give name to any language. That time, two browser were most popular. When it was developed for Netscapes and chnaged the name as Livescript.
+That time, java was most popular so he changed the name according to the java as Javascript which was big mistake of his. He sold it. Javascript browser does not need any engine to run it as compare to any other language.
+In 2008, Google chrome developed V8, Js engine which have high performance.By taking some features of Js, NodeJs was developed by Ryan. It is nothing but as a Js.
+Now we can run Js from outside the browser.Now a days , google ,twiteer and many other company use Js for their products. After developed NODEJS, Ryan thnked that he made a mistake so he is working to create a DINO which is come soon.
+ECMA that define the features and standards for the JS and other programming language. It give new modification and rule to make language more strong.
+ECMA5 conain tools that make JS more better.
+In 2015, ECMA6 make a JS more easy and good. It change the JS completely.
