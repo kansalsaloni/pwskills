@@ -1,8 +1,9 @@
 What is Internet?
 
 
-Internet is source by which  we can search anything in web browser. Their are different generation of internet are 2G,3G,4G,5G. It is worldwide web system. 
-It is an interconnection between many computer.
+Internet is source by which  we can search anything in web browser.Internet is a global network that connects billions of computers across the world with each other.
+Their are different generation of internet are 2G,3G,4G,5G. It is worldwide web system. It is an interconnection between many computer.
+Internet is called a network as it creates a network by connecting computers and servers across the world using routers, switches and telephone lines, and other communication devices and channels.
 
 
 What is Static  Website?
@@ -46,9 +47,11 @@ More overhead for simple website
 What is web browser?
 Web Browser is an application to accessing website. Example : Google Chrome, Microsoft Edge etc
 Many websites uses its own web browser to increase the user interaction and does not necessary to going anyother platform like linkedlin.
+When a user requests a web page from a particular website, the browser retrieves its files from a web server and then displays the page on the user's screen.
 
 
 What is web engine?
 Web Engine is used to render the Html/Css/Js content of webpage into screen from where user see the content.
+It is a core software component of every major web browser.
 Google used blink web engine. It increase a user interaction.
 
