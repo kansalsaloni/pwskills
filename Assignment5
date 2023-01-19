@@ -1,0 +1,36 @@
+Why do we start learning a programming language with “Hello World!?
+
+Hello world is the simplest program to write and understand easily any programming language and non-programming language.
+With simply two words, it define the syntax and how it is working.It is a first program for beginner to learn coding.
+We can easily understand how to write , compile and run. 
+
+How is the use of comments and how do you write comments in HTML?
+
+Comments are used to describe code explanation to another developer. For easily understanding of the code, we write a comments.
+It describe about what changes occur due to that code.
+It is good way to understand the code.
+The comments code are not display in the webpage.
+
+Comments in HTML  <!--company name -->
+
+
+What are elements tags and attributes and the difference btween them?
+
+Elements => The opening and closing tag and contents are called as an elements.  such as <p> hello</p>
+
+Tags=>The opening and closing tag are called as tag such as <h1> and </h1>
+Tags define that where the section is begins and ends.
+
+Attributes=> It define the property of the tag such as <img> tag has an attribute src that define the source of the image and alt that define the value will be display if image is not loaded.
+
+
+Briefly eplain what HTML entities are?
+
+HTML tag are written in <>. Their are some reserve tag and symbol in html. Entities is used to display reserve character as a character.
+like if we want to display > symbol then we used entities to print as a character. we can print it as &gt; and &#62; 
+without #  it does not print the symbol.
+If we give a space  in <p></p> then it does not print space. For printing space, we need to use &nbsp; where we want to print space in <p>tag.
+Entities start with & and end with ; 
+It is used to display reserve charcter into webpage.
+
+
