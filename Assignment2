@@ -1,12 +1,22 @@
 Difference between UI/UX?
    UI means all the components in a webpage such as button,checkbox etc.It contain all those components by which user has gone. It is a layout of a page.
    UX means how the components looks like button,checkbox to improve user interaction. It define the user behaviour regarding those components.
+   UX design involves managing the user interest as they interact with a product or service.
+   UI design emphasis on the actual construction of that product or service's interface.
+   
 
 What is frontend?
 Front end is part where user interact like webpage content. When user search any website then user see webpage/ content that is frontend.
+Front end consist html/css/javascript.It is also called client side environment.
+The goal of designing a site is to ensure that when the users open up the webpage they see the information in a  well-format that is easy to read and relevant information.
+#blog write on front end
+
 
 What is backend?
-It is a part of database and server side where all data are stored and logic are implemented.
+It is a part of database and server side where all data are stored and logic are implemented.It is also called server side environment.
+It can be an account login or making an e-commerce website.
+It consist nodejs, expressjs technology etc.
+Back end developer handle complex task and all activities of database and user. User can not access backend part.
 
 Github::  kansalsaloni
 
@@ -14,7 +24,7 @@ Linkedlin::https://www.linkedin.com/in/saloni-kansal-a421bb1a0
 
 
 
-Blog::https://kansalsaloni.hashnode.dev/preview/63c62dd99559df0008ec530d
+Blog::https://kansalsaloni.hashnode.dev/preview/63c62dd99559df0008ec530d 
 
 
 .
