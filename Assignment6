@@ -1,0 +1,39 @@
+What is Emnet?
+
+Emnet is a tool which help to write HTML code quickly and easily by using abbreviations.
+For example: write ! and enter tab then it print the boiler plate of  html i.e, boiler plate contain baisc strucuture of html code such as html, head, meta and body.
+Meta tag is a information about any information. For example car is a meta then information about car is meta information.
+If we write head then it automatically write the head tag and also show abbreviations of head tag.
+
+Their are different methods to write code easily and fastly.
+If we want to write div that contain nav and nav consist 2 times li then we write as div>nav>li*2.
+
+          <div>
+             <nav>
+                     <li></li>
+                     <li></li>
+              </nav>
+           </div>
+
+=>Parent- child  we used greater than symbol
+=>Siblings        we used + symbol
+=>Grouping        we used * symbol
+
+For id of p tag class we can write as p#id1
+        
+        <p id="id1"></p>
+
+For class of p tag class we can write as p.class1
+
+        <p class="class1"></p>
+
+        
+----------------------------------------------------------------------------------------------------------
+Adavntages
+
+=>Customization
+=>Abbreviations  Expansion
+=>Code snippet
+ With the help of it we does not need to write code repeatly by manually.
+ It is less time consuming.
+
