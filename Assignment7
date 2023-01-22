@@ -1,0 +1,89 @@
+=>What is Inline ?
+
+Inline elements takes space as it necessary. It does not start on a new line. Example <span>
+
+ For example of inline:: 
+ if we write 
+        
+           
+                <span> hello </span>
+                <span> i am saloni kansal</span>
+          
+            
+  OUTPUT::  hello i am saloni kansal
+------------------------------------------------------------------------------------------------------------            
+
+=>What is Block?
+ It occupy the full width is available. It always starts on new line. Example <div>, <p>.
+ 
+ For example of block:: 
+ if we write 
+        
+                <h3> hello </h3>
+                <h5> i am saloni kansal</h5>
+            
+  OUTPUT::  hello
+            i am saloni kansal
+            
+            
+ ---------------------------------------------------------------------------------------------------------------------
+
+=> Image tag
+
+It is used to dispaly image in a webpage.It have no closing tag
+Src attribute is used to give location of the file.
+Alt is used to show the text if image is not loaded.
+Width and height attribute are used to set the width and height of the image.
+Srcset is used to make responsive to the image.
+Title is used to show some text while hovering on image.
+
+Some usage of image on website:
+
+Visual appear
+Navigation
+------------------------------------------------------------------------------------------------------------------------------
+=>How to create a list?
+
+List is create by two method :
+Ordered List
+Unordered List
+
+type attribute is used to give type of list to be print.
+
+::ORDERED LIST
+-----------------
+It is used for numeric, alphabetly .It is created by <ol>
+        <ol >
+          <li> Apple</li>
+          <li> Mango</li>
+        </ol>
+        
+  OUTPUT::
+  --------
+  
+  1 Apple
+  2 Mango
+  
+  
+  ::UNORDERED LIST
+-----------------
+It is used  for bullects (circle, square) .It is created by <ul>
+        <ul type="circle">
+          <li> Apple</li>
+          <li> Mango</li>
+        </ul>
+        
+---------------------------------------------------------------------------------------------------
+:: decsription listA
+description list in HTML is used to display a list of and their
+descriptions. . it is creted by using <dl>, <dt> and <dd>.
+
+=> Hyperlink
+
+<a> is used for hyperlink.It is also called anchor tag.
+It contain href attribute in which source of file is given. 
+It navigate user to another page.
+To attach mail box to the text, we write as <a href="mailto:common@gmail.com"> mail</a>
+Target attribute: define where to be opened page such as blank, self,parent, top.
+Title attribute: is used to give short description of the link.
+Download is used to download a file rather than to be opened.
