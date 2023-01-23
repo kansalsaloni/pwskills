@@ -1,0 +1,109 @@
+=>HTML5
+HTML5 is the new version of the HTML. It contain some features of html and some new features to create a website more interactive.
+Audio : It is used to display audion in webpage
+Video: It is used to display video in the webpage.
+canvas: It is used to  draw graphics with various shapes and colors.
+Header and footer: It replace the use of div and p tag
+Section
+
+Advantages
+----------
+It make more interactive website.
+It support video, audio.
+It supports SEO
+
+Disadvantages
+-------------
+Complex code
+It does not support standard video format.
+It is not supported by all browser.
+-------------------------------------------------------------------------------------------------------------
+
+=>Semantic tag
+those tag who describe the purpose of the content in the website.
+like header, footer,section,article etc.
+Header tag that describe that the content is intoductive 
+Footer tag that describe that the content is the footer 
+                 <!DOCTYPE html>
+                <html>
+                <body>
+                        <header>
+                          <h1>PWSKILLS</h1>
+                          <p>SALONI KANSAL</p>
+                        </header>
+           
+                </body>
+                </html>
+                        
+             -------------------------------------------------
+ <!DOCTYPE html>
+<html>
+<body>
+<main>
+  <h1>Most Popular Browsers</h1>
+  <p>Chrome, Firefox, and Edge are the most used browsers today.</p>
+
+  <article>
+    <h2>Google Chrome</h2>
+    <p>Google Chrome is a web browser developed by Google, released in 2008. Chrome is the world's most popular web browser today!</p>
+  </article>
+
+  <article>
+    <h2>Mozilla Firefox</h2>
+    <p>Mozilla Firefox is an open-source web browser developed by Mozilla. Firefox has been the second most popular web browser since January, 2018.</p>
+  </article>
+
+  <article>
+    <h2>Microsoft Edge</h2>
+    <p>Microsoft Edge is a web browser developed by Microsoft, released in 2015. Microsoft Edge replaced Internet Explorer.</p>
+  </article>
+</main>
+</body>
+</html>
+
+
+
+Advantages
+----------
+Easy to understand
+Accessibility
+Better SEO
+----------------------------------------------------------------------------------------------------------------------------------------
+
+=>Uses of sementic tag
+
+Header tag that describe that the content is intoductive 
+ <!DOCTYPE html>
+<html>
+<body>
+              <header>
+                          <h1>PWSKILLS</h1>
+                          <p>SALONI KANSAL</p>
+              </header>
+               <footer>
+                          <h1>PWSKILLS</h1>
+                          <p>SALONI KANSAL</p>
+                        </footer>
+   
+</body>
+</html>
+---------------------
+Footer tag that describe that the content is the footer 
+
+Section tag defines a section in a document.
+Article tag specifies content on particular topic/content.
+ <!DOCTYPE html>
+<html>
+<body>
+  <article>
+    <h2>Microsoft Edge</h2>
+    <p>Microsoft Edge is a web browser developed by Microsoft, released in 2015. Microsoft Edge replaced Internet Explorer.</p>
+  </article>
+ 
+  </body>
+</html>
+  
+  
+  Above example it describe about the microsoft edge.
+
+
