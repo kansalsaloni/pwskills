@@ -1,0 +1,65 @@
+=> What is table and its properties?
+Table consist row and column.It is created by using<table> ,<tr>,<th>,<td>tags.
+    <table>
+       <tr> 
+          <th> subject</th>
+          <th> marks</th>
+        </tr>
+        <tr>
+          <td> english</td>
+          <td> 90</td>
+         </tr>
+     </table>
+ Border:: It is used to give border (border size, color, type(solid)) to the table.
+ Rowspan: It is used to merge two or more rows.
+ Colspan: It is used to merge two or more columns.
+ Cellpadding: It is used to give space between text and cell.
+ Cellspacing: It is used to give space between cells.
+ To set the width of a table, add the style attribute to the <table>.
+ 
+ =>Media elements
+ 
+ Audio tag is used to integrate a audio into a webpage.
+ Video tag is used to integrate a  Video  into a webpage.
+ To set controls, we used a control attribute in video and audio tag.
+ To autoplay, we used autoplay attribute.
+ For mute, we used muted attribute.
+ Src is used to give source of the video and audio.
+ 
+ In audio and video we can give multiple source of the different file, if first source of video or audio is not wordking then another is loaded.
+ <Source> is used that contain src attribute.
+ 
+ Img tag is used to integrate a  image into a webpage.
+ 
+ 
+ =>GET
+ GET is used to request data from a specified resource.
+ It is not secure data  for sensitive information.
+ It has a limited size.
+ After submitting the form, the GET method displays form data in the address bar of the new browser tab.
+ such as name, dob are attach into url.
+ In method attribute, get is given.
+ <form method="get">
+ 
+ =>POST
+ POST is used to send data to a server to update a resource. It is secure data  for sensitive information.
+ After submitting the form, it does not displays form data in the address bar of the new browser tab.
+ It has a limited size.
+ In method attribute, post is given.
+ <form method="post">
+ 
+ 
+ =>Different types of input in forms
+ 
+ <input>: It is used to collect the user input data from form such as name, dob ,address etc
+            <input type="text">
+  Type: It contain type of data such as text, address ,etc.
+  Placeholder : The value is displayed only when the input tag have no value. It provided some hint what value to be entered.
+  Value:  It consist the initial value which can be changed by the user later.
+  Readonly: The users cannot change the value of the input field.
+  Autofocus: It define the input filed is autofocus when page is loaded.
+  max: define the max numeric value of the field.
+  min: define the min numeric value of the field.
+  Multiple: allow user to enter more than one value in input field.
+  
+ 
