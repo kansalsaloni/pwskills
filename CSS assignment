@@ -1,0 +1,116 @@
+=>What is CSS? why use it.
+CSS stands for cascading style sheets.
+it is used to give designing to the website. It create a website more interactive.
+With the help of CSS, we give backgorund color, font color, font size, image width and alignment, alignment and many more.
+It defines how the elements of HTML are looked into the website.
+Thier are 3 types of CSS
+Inline
+External
+Internal
+It is easy to use.
+
+It is used to style and layout web pages.
+
+--------------------------------------------------------------------------------
+                ANOTHER QUESTION
+--------------------------------------------------------------------------------
+=>Different ways to bring CSS into HTML
+
+Thier are 3 ways.
+ 1.  Inline:: Css is apply in html tags by using style tag.
+   FOR EXAMPLE:
+   
+            <html>
+            <head>
+                <title>Inline CSS</title>
+           </head>
+      
+                   <body>
+                    <p style = "color:red; font-size:50px; text-align:center;">
+                        Hello world
+                    </p>
+
+                </body>
+        </html> 
+======================================================================================================
+ 2.  External:: Another stylesheet file of css is created which is apply by using link tag in <head>. It have a ref attribute that describe the stylesheet.
+    FOR EXAMPLE:     
+       <html>
+	     <head>
+       
+		      <title>External CSS</title> 
+          <link rel="stylesheet" href="geeks.css"/>
+          
+    	</head>
+    	<body>
+              <p class = "main">
+                Hello world
+              </p>
+	    </body>
+      </html>		
+   -------------------------------
+      CSS FILE
+      
+      .main {
+              text-align:center; 
+              color:red;
+              font-size:50px; 
+   
+             }
+
+===================================================================================================================   
+3.   Internal::Css is apply in <head> by using style tag.
+   FOR EXAMPLE:
+      
+<html>
+	<head>
+		      <title>Internal CSS</title>
+          <style>
+            .main {
+              text-align:center;
+              color:red; 
+            }
+          </style>
+	</head>
+	<body>
+              <p class = "main">
+                Hello world
+              </p>
+	</body>
+</html>			
+
+   
+------------------------------------------------------------------------------------------
+                     ANOTHER QUESTION
+------------------------------------------------------------------------------------------
+  
+  =>  CSS specificity
+  If there are two or more CSS rules that point to the same element, the selector with the highest specificity value will apply to the element.
+  Specificity as a rank that determines which style declaration is  applied to an element.
+  <!DOCTYPE html>
+<html>
+<head>
+          <style>
+                  .test {
+                  color: green;
+                  } 
+                  p {
+                  color: red;
+                  } 
+          </style>
+</head>
+<body>
+
+<p class="test">Hello World!</p>
+
+</body>
+</html>
+
+OUTPUT:
+Hello World display in green color.
+
+NOTE::      In above example, we have added a class selector (test) and specified a green color for this class.
+            Also added an another element  selector (p) and specified a red color for element.
+            The text will now be green (even though we have specified a red color for the element selector "p").
+            This is because the class selector is given higher priority.
+
