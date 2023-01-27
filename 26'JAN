@@ -1,0 +1,54 @@
+What is padding and margin and when do we use them?
+MARGIN: It is used to give space to the outsideof the element.
+Four type of margin
+        1. margin-top
+        2. margin-right
+        3. margin-bottom
+        4. margin-left
+ Margin properties 
+
+● Auto - When the browser calculates the margin itself.
+● Length -  Margin is given in terms of px, pt, cm, etc.
+● % -  Margin is given  in % of the width of the containing element
+● Inherit - It defeine the margin to the parentof the element.
+Negative value are also allowed.
+
+USE:: It specifies the space relative to another element.
+
+PADDING: It define the space surrounded the element.
+● padding-top
+● padding-right
+● padding-bottom
+● padding-left
+
+Padding properties
+
+● % -  Padding is given  in % of the width of the containing element
+● Inherit - It defeine the padding to the parentof the element.
+● Length -  Padding is given in terms of px, pt, cm, etc.
+Negative value are not also allowed.
+
+USE:: It specifies the space between text and div.
+
+-----------------------------------------------------------------------------------------------------------------
+=>What is display property, define inline, block and inline-block
+It define how the content is display in the webpage.
+Inline and block are the default display property.
+Inline take as much space as it necessary like span.
+Block take the entire width.
+Inline-block: It specify the height and width of the content.We can adjust the width and height of the element according
+to requirement with the help of inline-block.
+
+------------------------------------------------------------------------------------------------------------------------------------
+=>MIN-WIDTH: It define the minimum width of the element that can be greater than it but not lesser than it.
+    for example: min-width: 100px;
+    element should be 100px not lesser than it.
+=>MAX-WIDTH: It define the maximum width of the element that can be lesser than it but not greater than it.
+    for example: max-width: 100px;
+    element should not be greater than 100px.
+=>MIN-HEIGHT:It define the minimum height of the element that can be greater than it but not lesser than it.
+      for example: min-height: 100px;
+      element should be 100px not lesser than it.
+=>MAX-HEIGHT:It define the maximum height of the element that can be lesser than it but not greater than it.
+      for example: max-height: 100px;
+    element should not be greater than 100px.
