@@ -1,0 +1,100 @@
+why CSS selector used in HTML?
+
+Css selector is used to select HTML element which you want to style such as alignment, color,font-size,font-family etc.
+With the help of it, we can easily style the HTML elements.
+
+FOR EXAMPLE::
+                <!DOCTYPE html>
+                <html>
+                    <head>
+                          <style>
+                                p {
+                                  text-align: center;
+                                  color: red;
+                                } 
+                          </style>
+                    </head>
+                    <body>
+
+                          <p>CSS SELECTOR</p>
+                          <p id="para1">USE OF CSS SELECTOR</p>
+
+                    </body>
+                </html>
+
+OUTPUT:: Text display in center with red color.
+
+
+-------------------------------------------------------------------------------------------------
+What are different type of selector?
+
+ Their are 5 types of CSS selectors:
+
+Simple selectors : It select elements based on name, id, class.
+Combinator selectors : It select elements based on a specific relationship between them.
+Pseudo-class selectors : It select elements based on a certain state.
+Pseudo-elements selectors : It select and style a part of an element.
+Attribute selectors : It select elements based on an attribute or attribute value.
+
+=>CLASS SELECTOR
+The class selector uses the class attribute of an HTML element to select a specific element to give style.
+=>ID SELECTOR
+The id selector uses the id attribute of an HTML element to select a specific element to give style.
+            FOR EXAMPLE::
+                <!DOCTYPE html>
+                <html>
+                    <head>
+                          <style>
+                               #para1{
+                                  text-align: center;
+                                  color: red;
+                                } 
+                               .para2{
+                                   color:green;
+                                }
+                          </style>
+                    </head>
+                    <body>
+
+                          <p class="para2">CSS SELECTOR</p>
+                          <p id="para1">USE OF CSS SELECTOR</p>
+
+                    </body>
+                </html>
+
+=>The universal selector (*) selects all HTML elements on the page.
+=>Grouping selector is used to give similar style to the different HTML element. 
+
+                                                <html>
+                                                     <head>
+                                                          <style>
+                                                          h1, h2, p {
+                                                            text-align: center;
+                                                            color: red;
+                                                          }
+                                                          </style>
+                                                     </head>
+                                                     <body>
+
+                                                          <h1>Hello World!</h1>
+                                                          <h2>Smaller heading!</h2>
+                                                          <p>This is a paragraph.</p>
+
+                                                     </body>
+                                                </html>
+
+----------------------------------------------------------------------------------------------------
+How do you include external front and apply them?
+Google font is libary of font.
+It open source fonts that you can used in your webpage according to requirements.
+It was launched in 2010
+It contain 800 fonts.
+It is free
+ It is used to customized the font.
+ 
+ ADDING METHOD
+ =============
+Step 1: Serach Google Fonts library
+Step 2: Select the fonts .
+Step 3: Adding the fonts to your project.
+Step 4: Use the fonts in your CSS.
