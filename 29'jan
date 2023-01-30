@@ -1,0 +1,36 @@
+What is position property in CSS and its type?
+Position is used to detremine the location of the elements.
+Position are in 4 direction 
+Top
+Bottom
+Left
+Right
+
+Type
+====
+Static
+Absolute
+Fixed
+Relative
+Sticky
+
+---------------------------------------------------------------------------------------
+QUESTION2:: Types of positions
+
+Static :: It is positioned static by default. It is scrollable.It is not affected by the top, bottom, left, and right properties.
+Sticky:: It is positioned based on the user's scroll position. The sticky element sticks to the top of the page.
+Absolute:: It is an element whose computed position value is absolute . It change their position to their parents.
+Realtive:: It is positioned relative to its normal position. It chnage their position to their nearest element.
+Fixed:: Itis positioned relative to the viewport, which means it always stays in the same place even if the page is scrolled. 
+
+------------------------------------------------------------------------------------------------
+QUESTION3::Z-Index and its use
+Z-Index is used to maintain the stack position of the element.
+An element can have a positive or negative value.
+The element have lowest priority is positioned below.An element with a higher z-index value will appear in front of an element with a lower z-index value.
+It defines the order of overlapping HTML elements.
+When element is positioned they can overlap so define which element placed front or behind(to maintain stack order) is used.
+
+
+
+
