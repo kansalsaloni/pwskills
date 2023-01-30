@@ -1,0 +1,87 @@
+QUESTION1: media query and their use
+Media queries is used to set the viewport according to the user's screen.
+The content of the website can easily and properly view in different screen of the user.
+Such as mobile, desktop etc.
+It make user interactive, enhance the performance.
+Media queries are a feature of CSS that allow you to conditionally apply styles based on a set of browser .
+It make a website more responsive.
+Some commonly used media features are mentioned below.
+
+Orientation
+Resolution
+Aspect ratio
+Width
+Height
+
+SYNTAX:  @media screen, print {
+  /* … */
+}
+
+-------------------------------------------------------------------------------------------
+QUESTION2: min-width and max-width
+
+Min-width define the minimum width of screen in which media query is applied.
+Max-width define the maximum width of the scrren in whicc media query is applied.
+
+@media (min-width: 700px) { … } -  browser’s viewport width equal or wider than 700px;
+@media (max-width: 700px) { … } -  browser’s viewport width equal or narrower than 700px.
+
+        @media(min-width:600px)and(max-width:900px){
+        background-color:red;
+        }
+
+Means when screen color is minimum 600px  and maximum color is color is 900 then background color changed into red.
+-------------------------------------------------------------------------------------------------
+Question3: float
+It specifies how an element should float.(right,left,none,inherit).
+
+left - The element floats to the left of its container
+right - The element floats to the right of its container
+none - The element does not float . It is default value.
+inherit - The element inherits the float value of its parents.
+
+<html>
+    <head>
+        <style>
+              .class1{
+                        float:right;
+                     }
+        </style>
+    </head>
+    <body>
+        <p class="class1">Hello I am saloni kansal</p>
+        
+    </body>
+   </html>
+  The content of the p tag will be display in right side.
+=======================================================================
+clear
+It specifies what should happen with the element that is next to a floating element.
+none - The element is not pushed below left or right floated elements. It is default value.
+left - The element is pushed below left floated elements
+right - The element is pushed below right floated elements
+both - The element is pushed below both left and right floated elements
+inherit - The element inherits the clear value from its parents.
+
+<html>
+<head>
+      <style>
+            .div3 {
+  float: left;
+  padding: 10px;  
+  border: 3px solid #73AD21;
+}
+
+.div4 {
+  padding: 10px;
+  border: 3px solid red;
+  clear: left;
+}
+      </style>
+      
+<body>    
+<div class="div3">Hi</div>
+<div class="div4"> Hello</div>
+
+</body>
+</html>
