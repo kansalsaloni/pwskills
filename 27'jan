@@ -1,0 +1,35 @@
+Why it is called psuedo-class?
+A CSS pseudo-class is a keyword added to a selector that specifies a special state of the selected element. 
+It apply some special property which css element can not apply it.
+For example, the pseudo-class :hover can be used to select a button when a user's pointer hovers over the button and this selected button can then be styled.
+
+button:hover {
+  color: blue;
+}
+When user hover the button its color become blue.
+:autofill
+:hover
+:enabled
+:read-only
+---------------------------------------------------------------------------------------------------
+what are gradient in CSS
+CSS gradients is display smooth transitions between two or more specified colors.
+Thier are 3 types
+
+linear gradient:: A linear gradient creates a band of colors that progress in a straight line.
+To create a linear gradient you must define at least two color stops. 
+
+Radial gradients::You can also make them circular or elliptical.
+ conic-gradient :: you need to create a conic gradient are two colors.
+ 
+ -------------------------------------------------------------------------------------------------------
+ Transition
+ It allows you to change property values smoothly, over a given duration.
+ If the duration part is not specified, the transition will have no effect, because the default value is 0.
+ It is a way of changing the CSS property with animation. We can define the speed.
+ 
+transition
+transition-delay
+transition-duration
+transition-property
+transition-timing-function
