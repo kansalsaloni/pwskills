@@ -1,0 +1,40 @@
+         What is grid?
+         
+It is working in 2-D dimensional.
+An intersection of vertical and horizontal lines is called grid.
+It can worked bothnrows and column.
+Terminology associated with grid
+Rows
+Column
+Element 
+Gap
+Line
+Grid container are made of grid item that are arraned in rows and column.
+----------------------------------------------------------------------------------------
+          Difference between grif and flex
+GRID
+CSS Grid Layout, is a two-dimensional grid-based layout system with rows and columns, making it easier to design web pages without
+having to use floats and positioning. Like tables, grid layout allow us to align elements into columns and rows.
+
+FLEX
+The CSS Flexbox offers a one-dimensional layout. It is helpful in allocating and aligning the space among items in a container.
+It works with all kinds of display devices and screen sizes.
+------------------------------------------------------------------------------------------
+Rows and column for grid
+
+The lines between columns are called column lines.
+The lines between rows are called row lines.
+The spaces between each column/row are called gaps.
+grid-template-rows: It define the height of each row.
+grid-template-column: It define the number of column.
+
+------------------------------------------------------------------------------------------
+Two property of grid item and grid container
+
+GRID-ITEM
+1 grid-area :It  is used to achieve the functionalities of grid-row-start and grid-row-end.
+2 grid-row  :It specifies the grid item’s name
+
+GRID-CONTAINER
+1 Grid-template-columns:It define the number of column.
+2 Grid-template-row: It define the height of each row.
